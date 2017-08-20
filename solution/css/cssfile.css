@@ -9,16 +9,19 @@ h1 {
 .Container1 {
 	background-color: #5E4EBD;
 	padding: 5px;
+	position: relative;
 	/*0margin: 2px;*/
 }
 .Container2 {
 	background-color: #0DF5FF;
 	padding: 5px;
+	position: relative;
 	/*margin: 2px;*/
 }
 .Container3 {
 	background-color: #0DF5FF;
 	padding: 5px;
+	position: relative;
 	/*margin: 2px;*/
 }
 .p1 {
@@ -26,18 +29,27 @@ h1 {
 	width: 100px;
 	text-align: center;
 	padding: 0.02px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .p2 {
 	background-color: #E88D0C;
 	width: 100px;
 	text-align: center;
 	padding: 0.02px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .p3 {
 	background-color: #FF0000;
 	width: 100px;
 	text-align: center;
 	padding: 0.02px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 /*******Mobile View********/
 @media (max-width: 767px) {
