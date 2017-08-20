@@ -19,7 +19,7 @@ h1 {
 	/*margin: 2px;*/
 }
 .Container3 {
-	background-color: #0DF5FF;
+	background-color: #42FF2D;
 	padding: 5px;
 	position: relative;
 	/*margin: 2px;*/
@@ -50,6 +50,15 @@ h1 {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+.a1 {
+	padding-top: 50px;
+}
+.a2 {
+	padding-top: 50px;
+}
+.a3 {
+	padding-top: 50px;
 }
 /*******Mobile View********/
 @media (max-width: 767px) {
