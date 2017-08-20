@@ -15,7 +15,18 @@ p,h2 {
   font-family: Helvetica;
   color: white;
 }
-
+#container1{
+	background-color: Crimson;
+}
+.p1 {
+	background-color: #FFFE6C;
+}
+.p2 {
+	background-color: #E88D0C;
+}
+.p3 {
+	background-color: #FF0000;
+}
 /*******Mobile View********/
 @media (max-width: 767px) {
 	.col-mv-1, .col-mv-2, .col-mv-3, .col-mv-4, .col-mv-5, .col-mv-6, .col-mv-7, .col-mv-8, .col-mv-9, .col-mv-10, .col-mv-11, .col-mv-12 {
