@@ -10,12 +10,18 @@ h1 {
 }
 .p1 {
 	background-color: #FFFE6C;
+	width: 500px;
+	padding: 50px
 }
 .p2 {
 	background-color: #E88D0C;
+	width: 500px;
+	padding: 50px
 }
 .p3 {
 	background-color: #FF0000;
+	width: 500px;
+	padding: 50px
 }
 /*******Mobile View********/
 @media (max-width: 767px) {
