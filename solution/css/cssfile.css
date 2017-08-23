@@ -38,6 +38,8 @@ h1 {
 	position: absolute;
 	top: 0;
 	right: 0;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 }
 .p2 {
 	background-color: #E88D0C;
@@ -47,6 +49,8 @@ h1 {
 	position: absolute;
 	top: 0;
 	right: 0;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 }
 .p3 {
 	background-color: #FF0000;
@@ -56,6 +60,8 @@ h1 {
 	position: absolute;
 	top: 0;
 	right: 0;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 }
 .a1 {
 	padding-top: 50px;
