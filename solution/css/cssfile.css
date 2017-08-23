@@ -1,28 +1,34 @@
 /********** Base styles **********/
+/*html, body {
+  padding: 0;
+  margin: 0;
+}*/
 * {
   box-sizing: border-box;
-}
+  overflow: auto;
+} 
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
 .Container1 {
 	background-color: #5E4EBD;
-	padding: 5px;
 	position: relative;
-	/*0margin: 2px;*/
+  border: 1px solid #000;
+  margin: 2px;
 }
 .Container2 {
 	background-color: #0DF5FF;
-	padding: 5px;
-	position: relative;
-	/*margin: 2px;*/
+ 	position: relative;
+ border: 1px solid #000;
+  margin: 2px;
 }
 .Container3 {
 	background-color: #42FF2D;
-	padding: 5px;
+	
 	position: relative;
-	/*margin: 2px;*/
+  border: 1px solid #000;
+  margin: 2px;
 }
 .p1 {
 	background-color: #FFFE6C;
@@ -124,7 +130,7 @@ h1 {
     width: 41.66%;
   }
   .col-tv-6 {
-    width: 50%;
+    width: 49%;
   }
   .col-tv-7 {
     width: 58.33%;
@@ -142,25 +148,16 @@ h1 {
     width: 91.66%;
   }
   .col-tv-12 {
-    width: 100%;
+    width: 98.5%;
   }
 }
 /*******Desktop View*******/
 @media (min-width: 992px){
 	.col-dv-1, .col-dv-2, .col-dv-3, .col-dv-4, .col-dv-5, .col-dv-6, .col-dv-7, .col-dv-8, .col-dv-9, .col-dv-10, .col-dv-11, .col-dv-12 {
     float: left;
+    margin: 5px solid black;
   }
-  .Container1 {
-  	border: 1px;
-  	border-color: #FDF7FF;
-  }
-  .Container2 {
-  	border: 1px;
-  }
-  .Container3 {
-  	border: 1px;
-  }
-  .col-dv-1 {
+   .col-dv-1 {
     width: 8.33%;
   }
   .col-dv-2 {
@@ -170,13 +167,13 @@ h1 {
     width: 25%;
   }
   .col-dv-4 {
-    width: 33.33%;
+    width: 32.33%;
   }
   .col-dv-5 {
     width: 41.66%;
   }
   .col-dv-6 {
-    width: 50%;
+    width: 49%;
   }
   .col-dv-7 {
     width: 58.33%;
