@@ -50,9 +50,12 @@
 </head>
 <body>
 	<div class="random">
-		<audio src="Live While We're Young.mp3" autoplay>
-		Error: your web browser does not support this audio player.
-		</audio> 
+		<audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000)">
+   		<source src="Live While We're Young.mp3" type="audio/mp3" />
+		</audio>
+		<script type="text/javascript">
+		alert("PUT ON EARPHONES BEFORE THIS LOADS");
+		</script>
 		<h1 class="heading" onclick="alert('Get Lost')">Some random text</h1>
 		<img src="https://goo.gl/QjX2Dv" class="image1" title="I'm a tooltip"/>
 		<img src="https://goo.gl/AvQ39u" class="image2"/>
