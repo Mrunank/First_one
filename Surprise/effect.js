@@ -13,7 +13,7 @@ $('document').ready(function(){
 			$('#b44').animate({top:240, left: vw-50},500);
 			$('#b55').animate({top:240, left: vw+50},500);
 			$('#b66').animate({top:240, left: vw+150},500);
-			$('#b77').animate({top:240, left: vw+250},500);
+			//$('#b77').animate({top:240, left: vw+250},500);
 		});
 
 	$('#turn_on').click(function(){
@@ -94,13 +94,13 @@ $('document').ready(function(){
 			loopSix();
 		});
 	}
-	function loopSeven() {
+	/*function loopSeven() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
 		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSeven();
 		});
-	}
+	}*/
 
 	$('#balloons_flying').click(function(){
 		$('.balloon-border').animate({top:-500},8000);
@@ -117,7 +117,7 @@ $('document').ready(function(){
 		loopFour();
 		loopFive();
 		loopSix();
-		/*loopSeven();*/
+		//loopSeven();
 		
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');
