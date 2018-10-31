@@ -1288,9 +1288,8 @@ audio {
         padding: 10px;
         text-transform: uppercase;
         /*font-family: 'Signika', sans-serif;*/
-	/*font-family: 'Audiowide', cursive;*/
-	font-family: 'Bevan', cursive;
-        font-weight: 400;
+	font-family: 'Audiowide', cursive;
+        font-weight: 350;
         color: #fff;
         background-color: #466baf;
 }
