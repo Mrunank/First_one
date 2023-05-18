@@ -399,6 +399,22 @@ function showBox(box) {
 function hideBox(popup) {
   popup.style.display = "none";
   popup.innerHTML = "";
-}  </script>
+} 
+  // Get a reference to the audio element
+  var audio = document.getElementById("myAudio");
+
+  // Set the desired starting time in seconds
+  var startTime = 46;
+
+  // Function to start the audio from the specified time
+  function startFromTime() {
+    audio.currentTime = startTime;
+    audio.play();
+  }
+
+  // Call the function to start the audio from the desired time
+  startFromTime();
+
+ </script>
 </body>
 </html>
